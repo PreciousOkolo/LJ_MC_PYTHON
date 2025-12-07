@@ -27,7 +27,7 @@ The code is designed for clarity, reproducibility, and teaching/learning molecul
 - `monte_carlo()` – perform a sequence of trial moves and return acceptance statistics.
 - `adjust_step()` – tune displacement step size toward a target acceptance ratio (e.g. 50%).
 - `compute_observables()` – compute energy and pressure (truncated and tail-corrected).
-- `main()` – top-level driver: sets parameters, runs equilibration and production, writes outputs.
+- `main()` – sets parameters, runs equilibration and production, writes outputs.
 
 ---
 
